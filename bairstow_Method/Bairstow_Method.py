@@ -164,10 +164,12 @@ print("b6 =", b6)
 
 print(f"x² - ({r1})x - ({s1}) = 0")
 
+import cmath
+
 D2 = r1**2 + 4*s1
 
-x1 = (r1 + np.sqrt(D2))/2
-x2 = (r1 - np.sqrt(D2))/2
+x1 = (r1 + cmath.sqrt(D2))/2
+x2 = (r1 - cmath.sqrt(D2))/2
 
 print("\n roots :")
 
